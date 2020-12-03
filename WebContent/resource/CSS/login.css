@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: #808080;
+}
+
+.img-login{
+	display: block;
+    height: 100px;
+   margin-left: auto;
+  margin-right: auto;
+	margin-top: 50px;
+}
+
+.loginForm{
+	background-color:  #5d5d5d;
+	height: 320px;
+	max-width: 300px;
+	text-align: center;
+	padding: 25px;
+	display: block;
+	 margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+input{
+ 
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 70%;
+    border: 0;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+
+button{
+	border-radius: 6px;
+	height: 35px;
+	width: 100px;
+	background: rgba(0,0,0,0.6);
+	border-color: white;
+	border-style:groove;
+	border-width:thick;
+	color: white; 
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}

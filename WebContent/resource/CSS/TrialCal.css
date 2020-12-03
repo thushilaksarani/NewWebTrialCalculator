@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+body{	
+	background-image: url("Housing-Loan-Calculator.jpg");
+    height:110vh;
+    width:100vh;
+    background-size: cover;
+    background-position: center;
+	}
+	
+
+.nav-bar-page{
+     background: rgba(0,0,0,0.6);
+     height: 70px;
+     width: 210%;  
+     text-align: center;
+     margin: 0 auto 8px;
+}
+
+.nav-bar-page h1{
+    font-size: 42px;
+    margin: 5px;
+    color:#fff;    
+}
+
+p{
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.cal{
+	float: center;
+    width: 1000px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+	border-radius:40px;
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    max-width: 600px;
+    margin: 0 auto 10px;
+    padding: 50px;
+   	float: center;
+   	margin-left: 18%;
+   
+}
+
+table{
+	border:2px;
+	width: 100%;	
+}
+td{
+	height: 30px;
+	text-align: left;	
+}
+
+label {
+	color: white;
+	font-weight: bold; 
+}
+
+button{
+	border-radius: 6px;
+	height: 33px;
+	background: rgba(0,0,0,0.6);
+	border-color: white;
+	border-style:groove;
+	border-width:thick;
+	color: white; 
+	font-weight: bold;
+	cursor: pointer;
+}
+button:hover {
+  background-color: #c0c0c0;
+  color: black;
+}
+
+#t01 {
+  width: 100%;    
+  background-color: #80ff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
